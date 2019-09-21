@@ -7,4 +7,4 @@
   Open source license #2: <a href="license_agreements/OPEN_SOURCE.txt"><button type="button">click here to proceed</button>
   
   
-  Download the website source code: <a href="https://github.com/1000YearsLater/1000YearsLater.github.io/archive/master.zip"><button type="button">click here to proceed to the download</button>
+  Download the website source code: <a href="https://github.com/1000YearsLater/1000yearslater.github.io/archive/master.zip"><button type="button">click here to proceed to the download</button>
