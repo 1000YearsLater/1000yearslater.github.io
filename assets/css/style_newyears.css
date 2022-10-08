@@ -1,8 +1,8 @@
 /**
-* Template Name: Regna - v4.9.0
-* Bootstrap version: 5.2.1
+* Template Name: Regna - v4.9.1
+* Bootstrap version: 5.2.2
 * Bootstrap icons version: 1.9.1
-* Swiper JS version: 8.4.2
+* Swiper JS version: 8.4.3
 * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -703,9 +703,6 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   width: 200%;
 }
-border {
-  border: 5px solid white;
-}
 body {
-    font-family: 'Edu VIC WA NT Beginner';font-size: 22px;
+    font-family: 'Edu VIC WA NT Beginner';font-size: 30px;
 }
