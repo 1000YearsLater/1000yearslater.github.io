@@ -40,3 +40,17 @@ strong {
 body {
     font-family: 'Trebuchet MS';
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #faf8ef;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #f6c4a1;
+  border-radius: 6px;
+}
