@@ -1,28 +1,33 @@
 
 
-<!--- File name: index.html, Last updated: March 24, 2023. Version: 48 -->
+<!--- File name: index.html, Last updated: October 28, 2023. Version: 68 -->
 
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1, width=device-width"/>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" id="metaViewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
 	<meta name="Robots" CONTENT="all"/>
 	<script src="assets/vendor/jquery/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
     <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.css" rel="stylesheet">
-	<link href="assets/css/splash.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/customizations.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/flickity.css"/>
 	<link rel="icon" type="image/png" href="assets/img/1000YearsLater.png"/>
 	<meta name="author" content="Ryzen5-3600">
     <title>1000 Years Later: Home Page</title>
     <meta content="Ryzen5-3600's services and projects are always open source." name="description">
     <meta content="Ryzen5-3600's services and projects are always open source." name="keywords">
+	<script>
+    if(navigator.userAgent.toLowerCase().indexOf('android') > -1)
+    document.getElementById('metaViewport').setAttribute('content', 'width='+screen.width+', initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+    </script>
     <meta http-equiv="refresh" content="2 url = homepage.html" />
 </head>
 
