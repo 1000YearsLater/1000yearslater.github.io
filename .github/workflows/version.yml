@@ -15,6 +15,19 @@ jobs:
         with:
           ref: ${{ github.head_ref }}   # checkout the correct branch name
           fetch-depth: 0                # fetch the whole repo history
+        runs:
+          using: 'node21'
+
+steps:
+  # Reference a specific commit
+  - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
+  # Reference the major version of a release
+  - uses: actions/checkout@v4
+  # Reference a specific version
+  - uses: actions/checkout@v4.2.0
+  # Reference a branch
+  - uses: actions/checkout@main
+
 
       - name: Git Version
         id: version
@@ -22,8 +35,7 @@ jobs:
         
       - name: Cache
         uses: actions/cache@v4.0.0
-        runs:
-          using: 'node21'
+        
       
       - name: Use the version
         run: |
