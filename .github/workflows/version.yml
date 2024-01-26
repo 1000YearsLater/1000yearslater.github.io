@@ -28,7 +28,6 @@ steps:
   # Reference a branch
   - uses: actions/checkout@main
 
-
       - name: Git Version
         id: version
         uses: codacy/git-version@2.8.0
