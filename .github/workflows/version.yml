@@ -22,6 +22,8 @@ jobs:
         
       - name: Cache
         uses: actions/cache@v4.0.0
+        runs:
+          using: 'node21'
       
       - name: Use the version
         run: |
