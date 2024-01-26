@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4.2.0
+        uses: actions/checkout@v4.1.1
         with:
           ref: ${{ github.head_ref }}   # checkout the correct branch name
           fetch-depth: 0                # fetch the whole repo history
         runs:
-          using: 'node21'
+          using: 'node20'
 
       - name: Git Version
         id: version
